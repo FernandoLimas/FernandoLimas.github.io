@@ -1,0 +1,31 @@
+.nome{
+    font-family: cursive, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.perfill{
+   
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+body{
+    background-color: #95d5b2;
+}
+.nacionalidade{
+    font-weight: 600;
+}
+.hab1{
+    font-size: 30px;
+}
+.hab2{
+    font-size: 25px;
+}
+.hab3{
+    font-size: 20px;
+}
+#foto{
+    float: left;
+}
+.imagecontainer{
+    height: 200px;
+}
+div{
+   border: 2px solid purple;
+}
