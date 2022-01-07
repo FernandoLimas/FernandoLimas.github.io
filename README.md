@@ -1,1 +1,1 @@
-# Portifólio criado com páginas de projetos no github.io.
+# Repositório criado para portifólio no github.io com páginas de projetos.
