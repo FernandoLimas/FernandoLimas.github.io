@@ -1,113 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meu portifólio</title>
   <link rel="stylesheet" href="assets/css/style.css">
-  
   <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<!-- font awesome -->
-<script src="https://kit.fontawesome.com/42b0464b19.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/lib/bootstrap.min.css">
+  <title>Bootstrap</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light position-fixed">
-    <a class="navbar-brand" href="#">Fernando Lima</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        
-      </ul>
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" style="color: white" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" style="color: white" href="#sobreMim">Sobre mim</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" style="color: white" href="#">Habilidades</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" style="color: white" href="#projetos">Projetos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" style="color: white" href="#">Contato</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <section class="jumbotron text-center" id="sobreMim">
-    <div class="container">
-      <img class="foto-perfil" src="https://live.staticflickr.com/65535/51711495413_3a1e490fd5.jpg" alt="fotoPerfil">
-      <h1 class="jumbotron-heading">Fernando Lima </h1>
-      <p class="lead text-muted"> Introdução - Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
-      <p>
-        <a href="#" class="btn btn-dark my-2">Contato</a>
-      </p>
-      <a href="https://www.linkedin.com/in/fernandofilipee/"> <i style="font-size: 30px;" class="fab fa-linkedin"></i> </a>
-      <a href="https://github.com/FernandoLimas"> <i style="font-size: 30px;" class="fab fa-github-square"></i> </a>
-    </div>
-  </section>
-  <div class="album py-5 bg-light">
-    <div class="container">
+  <header class="">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-ligth px-5" style="background-color: #2FC18C;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><h2>Fernando Lima</h2></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto"></ul>
 
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card mb-4 box-shadow">
-            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="project-pixel-art" style="height: 225px; width: 100%; display: block;" src="https://raw.githubusercontent.com/tryber/sd-013-a-project-pixels-art/master/art-with-pixels.gif" data-holder-rendered="true">
-            <div id="projetos" class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <a href="https://fernandolimas.github.io/pixels-art"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4 box-shadow">
-            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="project-pixel-art" style="height: 225px; width: 100%; display: block;" src="assets/images/spiderflix.PNG" data-holder-rendered="true">
-            <div id="projetos" class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <a href="https://fernandolimas.github.io/spiderflix"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4 box-shadow">
-            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="project-pixel-art" style="height: 225px; width: 100%; display: block;" src="https://raw.githubusercontent.com/tryber/sd-013-a-project-pixels-art/master/art-with-pixels.gif" data-holder-rendered="true">
-            <div id="projetos" class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <a href="https://fernandolimas.github.io/pixels-art"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
+          <div class="d-flex">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item lead"><a class="nav-link" href="#">About-me</a></li>
+              <li class="nav-item lead"><a class="nav-link" href="#">Skills</a></li>
+              <li class="nav-item lead"><a class="nav-link" href="#">Projects</a></li>
+              <li class="nav-item lead"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
           </div>
         </div>
       </div>
+    </nav>
+  </header>
+
+  <section class="section">
+    <div class="row flex-lg-row-reverse align-items-center g-0 py-5">
+      <div class="col-10 col-sm-8 col-lg-5">
+        <img src="http://live.staticflickr.com/65535/51711495413_3a1e490fd5.jpg" class="d-block mx-lg-auto mx-sm-5 img-fluid rounded-circle" alt="Temas de bootstrap" width="400" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-1 fw-bold lh-1 mb-4 mx-sm-5 text-white"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Fernando Lima</font></font></h1>
+        <p class="lead text-white pb-5 mx-sm-5"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Hello! I'm Fernando Lima. Wellcome to my portfolio. I am very happy to see you here. </font></font></p>
+        <div class="gap-2 d-md-flex justify-content-md-start mx-sm-5">
+          <a href="https://www.linkedin.com/in/fernandofilipee/">
+            <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="link-to-linkedin" width="150">
+          </a>
+          <a href="https://github.com/FernandoLimas/">
+            <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="link-to-github" width="150" height="38">
+          </a>
+          <a href="mailto:nandofhilipe@gmail.com">
+            <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="link-to-github" width="150" height="38">
+          </a>
+        </div>
+      </div>
     </div>
-  </div>
-  <footer class="container-fluid text-center bg-footer">
-    <p> &#174;Desenvolvido por Fernando Lima</p>
-  </footer>
+  </section>
+
+  <section class="albumboot">
+    <div class="album py-5 bg-light">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="project-pixel-art" style="height: 225px; width: 100%; display: block;" src="https://raw.githubusercontent.com/tryber/sd-013-a-project-pixels-art/master/art-with-pixels.gif" data-holder-rendered="true">
+              <div id="projetos" class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://fernandolimas.github.io/pixels-art"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                  </div>
+                  <small class="text-muted"></small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="spiderflix" style="height: 225px; width: 100%; display: block;" src="assets/images/spiderflix.PNG" data-holder-rendered="true">
+              <div id="projetos" class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://fernandolimas.github.io/spiderflix"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                  </div>
+                  <small class="text-muted"></small>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="assets/lib/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/script.js"></script>
 </body>
 </html>
