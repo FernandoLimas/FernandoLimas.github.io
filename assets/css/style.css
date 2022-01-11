@@ -12,3 +12,9 @@ body{
   background: #212529;
 }
 
+.pfixed{
+  
+  position: fixed !important;
+  width: 100%;
+  z-index: 1;
+}
