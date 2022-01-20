@@ -1,81 +1,87 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <!-- google fonts -->
+  <link rel="stylesheet" href="assets/style/style.css">
+  <!-- fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap" rel="stylesheet">
-  <!-- Bootstrap -->
+  <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <!-- bootstrap -->
   <link rel="stylesheet" href="assets/lib/bootstrap.min.css">
-  <title>F. L I M A</title>
+  
+  <title>F E R N A N D O</title>
 </head>
 <body>
-  <header class="">
-    <nav class="navbar navbar-expand-lg navbar-light px-5 pfixed bord" style="background-color: #e4e4e4;">
+  <header class="#about">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-0 bord fixed-top">
       <div class="container-fluid container">
-        <a class="navbar-brand " href="#"><h2 class="logo">Fernando Lima</h2></a>
+        <a class="navbar-brand p-0 m-0 mylogo" href="#">Fernando Lima</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto"></ul>
-
+        
           <div class="d-flex">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item lead"><a class="nav-link" href="#about">About-me</a></li>
-              <li class="nav-item lead"><a class="nav-link" href="#">Skills</a></li>
-              <li class="nav-item lead"><a class="nav-link" href="#projects">Projects</a></li>
-              <li class="nav-item lead"><a class="nav-link" href="#">Contact</a></li>
-            </ul>
-          </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+              <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active p-4" aria-current="page" href="#">About-me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link p-4" href="#projects">Projects</a>
+                </li>                
+                <li class="nav-item">
+                  <a class="nav-link p-4" href="#">Skills</a>
+                </li>                
+                <li class="nav-item">
+                  <a class="nav-link p-4" href="#">Contact</a>
+                </li>                
+              </ul>
+
+            </div>
         </div>
       </div>
     </nav>
-  
   </header>
 
-  <section class="section py-5" id="about">
+  <section class="section py-5 margem-top" id="about">
     <div class="row flex-lg-row-reverse align-items-center g-0 py-5">
-      <button class="btn-warning">EM CONSTRUÇÃO</button>
       <div class="col-10 col-sm-8 col-lg-5">
-        <img src="http://live.staticflickr.com/65535/51711495413_3a1e490fd5.jpg" class="d-block mx-lg-auto mx-sm-5 img-fluid rounded-circle" alt="Temas de bootstrap" width="350" height="400" loading="lazy">
+        <img src="http://live.staticflickr.com/65535/51711495413_3a1e490fd5.jpg" class="d-block mx-lg-auto mx-sm-5 img-fluid rounded-circle bord-img" alt="Temas de bootstrap" width="350" height="400" loading="lazy">
       </div>
       <div class="col-lg-6">
-        <h1 class="display-3 fw-bold lh-1 mb-4 mx-sm-5 text-dark"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Hi, I'm Fernando.</font></font></h1>
-        <p class="lead text-dark pb-5 mx-sm-5"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Hello! Wellcome to my portfolio. I am very happy to see you here. I'm a junior fullstack developer. I've always liked games and solving logic puzzles. In 2021 I had the opportunity to join Trybe and learn to program, also improving my soft skills. Programming gave me " super powers ". </font></font></p>
-        <div class="gap-2 d-md-flex justify-content-md-start mx-sm-5">
-          <button>
+        <h1 class="display-3 fw-bold lh-1 mb-4 mx-sm-5 text-dark myfont"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Hi, I'm Fernando.</font></font></h1>
+        <p class="lead text-dark pb-5 mx-sm-5 myfont"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Hello! Wellcome to my portfolio. I am very happy to see you here. I'm a junior fullstack developer. I've always liked games and solving logic puzzles. In 2021, I had the opportunity to join Trybe and learn to program, also improving my soft skills. Programming gave me <i>" super powers "</i>. </font></font></p>
+        <div class="gap-4 d-md-flex justify-content-md-start mx-sm-5 myIcon">
             <a href="https://www.linkedin.com/in/fernandofilipee/">
-            <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="link-to-linkedin" width="150">
+            <img src="assets/images/linkedin.svg" alt="link-to-linkedin" width="50">
             </a>
-          </button>
-          <button>
+          
             <a href="https://github.com/FernandoLimas/">
-            <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="link-to-github" width="150" height="38">
+            <img src="assets/images/github.svg" width="50" alt="link-to-github" >
             </a>
-          </button>
-          <button>
+          
+          
             <a href="mailto:nandofhilipe@gmail.com">
-            <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="link-to-github" width="150" height="38">
+            <img src="assets/images/mail.svg" width="50" alt="link-to-email">
             </a>
-          </button>
+          
         </div>
       </div>
     </div>
   </section>
-
-  <section class="albumboot my-1" id="projects">
+  
+  <section class="albumboot my-1 myfont" id="projects">
     <div class="album py-5">
       <div class="container">
-        <h2 class="jumbotron-heading text-center text-dark py-4">PROJECTS</h2>
+        <h2 class="jumbotron-heading text-center text-dark py-4 myfont">PROJECTS</h2>
         <div class="row">
           <div class="col-md-4">
             <div class="card mb-4 box-shadow box">
-              <h2 class="text-center">Pixels-Art</h2>
+              <h2 class="text-center myfont">Pixels-Art</h2>
               <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="project-pixel-art" style="height: 200px; width: 100%; display: block;" src="assets/images/art-with-pixels.gif" data-holder-rendered="true">
               <div id="projetos" class="card-body">
                 <p class="card-text">I implemented a web page that contains a functional color palette that can be used to create pixel drawings.
@@ -89,7 +95,7 @@
                 </ul>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <a href="https://fernandolimas.github.io/pixels-art"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                    <a href="https://fernandolimas.github.io/pixels-art"><button type="button" class="btn btn-sm btn-outline-secondary btn-green">View</button></a>
                   </div>
                   <small class="text-muted"></small>
                 </div>
@@ -112,7 +118,7 @@
                 </ul>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <a href="https://fernandolimas.github.io/spiderflix"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                    <a href="https://fernandolimas.github.io/spiderflix"><button type="button" class="btn btn-sm btn-outline-secondary btn-green">View</button></a>
                   </div>
                   <small class="text-muted"></small>
                 </div>
@@ -135,7 +141,7 @@
                 </ul>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <a href="https://fernandolimas.github.io/todo-list"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                    <a href="https://fernandolimas.github.io/todo-list"><button type="button" class="btn btn-sm btn-outline-secondary btn-green">View</button></a>
                   </div>
                   <small class="text-muted"></small>
                 </div>
@@ -149,6 +155,5 @@
   </section>
 
   <script src="assets/lib/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/script.js"></script>
 </body>
 </html>
